@@ -1,0 +1,6 @@
+2026/04/09-12:58:41.567 1cd8 Reusing MANIFEST C:\Users\edusa\OneDrive\Área de Trabalho\to_do_list\.wwebjs_auth\session\Default\Local Storage\leveldb/MANIFEST-000001
+2026/04/09-12:58:41.596 1cd8 Recovering log #4
+2026/04/09-12:58:41.600 1cd8 Reusing old log C:\Users\edusa\OneDrive\Área de Trabalho\to_do_list\.wwebjs_auth\session\Default\Local Storage\leveldb/000004.log 
+2026/04/09-13:05:45.661 3b10 Level-0 table #8: started
+2026/04/09-13:05:45.667 3b10 Level-0 table #8: 15373 bytes OK
+2026/04/09-13:05:45.669 3b10 Delete type=0 #4

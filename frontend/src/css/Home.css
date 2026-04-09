@@ -1,0 +1,47 @@
+/* --- O Fundo Escuro que cobre a tela toda --- */
+.modal-fundo {
+    position: fixed; /* Fica preso na tela */
+    top: 0;
+    left: 0;
+    width: 100vw; /* 100% da largura da tela */
+    height: 100vh; /* 100% da altura da tela */
+    background-color: rgba(0, 0, 0, 0.7); /* Preto com 70% de transparência */
+    
+    /* Estas três linhas servem para centralizar o quadro branco perfeitamente no meio */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    z-index: 1000; /* Garante que fica por cima de TUDO o resto */
+}
+
+/* --- O Quadro Branco flutuante --- */
+.modal-conteudo {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+/* Um pouco de estilo para os botões do modal não ficarem feios */
+.botoes-modal {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.botoes-modal button {
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+.botoes-modal button:hover {
+    background-color: #eee;
+}
